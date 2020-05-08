@@ -10,11 +10,6 @@ require 'pry'
 
 def get_the_keys(groceries)
   #code your solution here!
-  keys = []
-  
- keys << groceries[dairy].keys 
- keys << groceries[vegetable].keys
-  keys << groceries[meat].keys 
-  keys << groceries[grains].keys
+ groceries.keys
   
 end 
